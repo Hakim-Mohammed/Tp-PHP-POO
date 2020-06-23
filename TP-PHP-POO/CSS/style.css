@@ -1,0 +1,39 @@
+/* navbar */
+.perso_bgBlue{
+    background-color: rgb(29, 52, 97) !important;
+}
+
+nav a{
+    font-size: 20px !important;
+}
+
+nav a:hover{
+    color: blueviolet !important;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+    animation-name: brand;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes brand{
+    0%{left: -1000px ;}
+    100%{left: 0px;}
+}
+
+.navbar-nav{
+    animation-name: lien;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes lien{
+    0%{left: 1000px ;}
+    100%{left: 0px;}
+}
+
+/* Formatage  */
+
+.perso_colorBlueLight{
+    color: rgb(29, 52, 97) !important;
+}
